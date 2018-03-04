@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "Simple app running fast.com speed test using jsdom",
+  "main": "fast.js",
+  "dependencies": {
+    "bufferutil": "3.0.3",
+    "jsdom": "11.6.2",
+    "utf-8-validate": "4.0.0"
+  },
+  "devDependencies": {
+    "nexe": "2.0.0-rc.26",
+    "webpack": "4.0.1",
+    "webpack-cli": "2.0.10"
+  },
+  "scripts": {
+    "bundle-dev": "webpack index.js --output bundle.min.js --mode development --target node",
+    "bundle-watch": "webpack index.js --output bundle.min.js --mode development --watch --target node",
+    "bundle": "webpack index.js --output bundle.min.js --mode production --target node",
+    "bin": "npm run bundle && nexe bundle.min.js -t alpine-x64-8.9.3 -o app",
+    "build": "npm run nexe"
+  },
+  "author": "remusao",
+  "license": "MIT"
+}
