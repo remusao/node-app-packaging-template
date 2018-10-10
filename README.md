@@ -41,4 +41,4 @@ $ docker build -t app-nexe . -f Dockerfile
 
 Output: A Docker image named `app` with base-size of `41MB`.
 
-Running the app: `docker run app ./app`
+Running the app: `docker run app-nexe ./app`
