@@ -4,7 +4,7 @@
   "description": "Simple app running fast.com speed test using jsdom",
   "main": "fast.js",
   "dependencies": {
-    "jsdom": "^12.2.0"
+    "jsdom": "^15.1.1"
   },
   "devDependencies": {
     "nexe": "^2.0.0-rc.34",
