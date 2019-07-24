@@ -7,7 +7,7 @@
     "jsdom": "^15.1.1"
   },
   "devDependencies": {
-    "nexe": "^2.0.0-rc.34",
+    "nexe": "^3.3.2",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.3.6"
   },
