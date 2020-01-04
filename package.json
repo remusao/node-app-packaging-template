@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "nexe": "^3.3.2",
-    "webpack": "^4.20.2",
+    "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   },
   "scripts": {
