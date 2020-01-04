@@ -9,7 +9,7 @@
   "devDependencies": {
     "nexe": "^3.3.2",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.10"
   },
   "scripts": {
     "bundle-dev": "webpack index.js --output bundle.min.js --mode development --target node",
